@@ -1,18 +1,28 @@
 {
   "name": "@tomertest1824/slugger",
   "version": "1.1.0",
-  "description": "",
+  "description": "test",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/consumer.draft.js"
+    "dev": "nodemon src/consumer.draft.js",
+    "test": "jest src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ajar/marker": "^1.1.13"
+    "@ajar/marker": "^1.1.13",
+    "jest": "^23.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomertest1824/slaugger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomertest1824/slaugger/issues"
+  },
+  "homepage": "https://github.com/tomertest1824/slaugger#readme"
 }
